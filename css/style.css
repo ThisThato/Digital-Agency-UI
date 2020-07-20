@@ -1,0 +1,177 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 0% 15%;
+}
+
+.btn {
+  border-radius: 0%;
+}
+
+#header {
+  color: #f4f4f4;
+  background: #111111;
+  overflow-x: hidden;
+}
+#header .navbar {
+  padding: 4rem 0 4rem;
+}
+#header .navbar .navbar-brand {
+  font-family: "Ubuntu", "sans-serif";
+  font-size: 1.6rem;
+}
+#header .navbar .nav-link:hover {
+  color: #f4f4f4;
+}
+#header h1 {
+  padding-top: 10%;
+  font-size: 4.5rem;
+  position: relative;
+  animation-name: title;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+#header img {
+  width: 130%;
+  position: relative;
+  animation-name: image;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+#header .btn-header {
+  margin: 50px 0 30px 0;
+}
+#header .navbar-toggler {
+  outline: none;
+  box-shadow: none;
+  border: none;
+}
+
+#features {
+  background-color: #f4f4f4;
+  padding: 7% 0%;
+  text-align: center;
+  line-height: 1.7;
+}
+#features .left-border {
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+#features i {
+  padding-bottom: 7%;
+}
+#features ul {
+  padding-top: 2%;
+  font-size: 1.2rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#testimonials {
+  background-color: #111111;
+  color: #f4f4f4;
+  font-size: 1rem;
+  padding: 4% 4%;
+}
+#testimonials h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+#testimonials div {
+  padding: 2% 0%;
+}
+#testimonials .btn {
+  margin-top: 10%;
+  align-items: right;
+}
+#testimonials .testimonial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4%;
+}
+#testimonials .testimonial img {
+  width: 50%;
+  border-radius: 2%;
+}
+#testimonials .testimonial h4 {
+  padding: 2%;
+  font-size: 1.2rem;
+}
+
+#Partners {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 4% 0%;
+}
+#Partners img {
+  width: 23%;
+}
+#Partners h2 {
+  margin-bottom: 5%;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+#Partners h3 {
+  margin-top: 7%;
+  margin-bottom: 2.5%;
+  font-size: 3rem;
+}
+
+#cta {
+  background-color: #111111;
+  color: #f4f4f4;
+  padding: 5% 10%;
+  text-align: center;
+}
+#cta i {
+  margin: 3% 2%;
+}
+#cta i:hover {
+  color: #d8d8d8;
+}
+
+@media (max-width: 1028px) {
+  #features {
+    padding: 10% 20%;
+  }
+  #features .left-border {
+    border-style: solid;
+    border-width: 2px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  #features i {
+    margin-top: 5%;
+  }
+}
+@keyframes title {
+  0% {
+    left: -700px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@keyframes image {
+  0% {
+    left: 700px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
