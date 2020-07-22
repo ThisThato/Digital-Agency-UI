@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 a {
@@ -78,36 +79,59 @@ a {
 }
 
 #testimonials {
+  display: flex;
+  text-align: center;
   background-color: #111111;
   color: #f4f4f4;
-  font-size: 1rem;
-  padding: 4% 4%;
-}
-#testimonials h2 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 3.5rem;
 }
 #testimonials div {
-  padding: 2% 0%;
+  margin: 3%;
 }
-#testimonials .btn {
-  margin-top: 10%;
-  align-items: right;
-}
-#testimonials .testimonial {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 4%;
-}
-#testimonials .testimonial img {
+#testimonials img {
   width: 50%;
   border-radius: 2%;
+  margin: 1% 1%;
 }
-#testimonials .testimonial h4 {
-  padding: 2%;
-  font-size: 1.2rem;
+#testimonials .desc {
+  margin: 5% 0%;
+}
+#testimonials .desc h1,
+#testimonials .desc h2 {
+  text-transform: uppercase;
+}
+#testimonials .desc h2 {
+  font-size: 1.4rem;
+}
+#testimonials .desc h4 {
+  font-size: 1.1rem;
+}
+#testimonials .desc .btn {
+  width: 20%;
+}
+#testimonials .work {
+  margin-top: 7%;
+  padding-bottom: 14%;
+}
+#testimonials .work h2 {
+  padding-top: 7rem;
+}
+#testimonials .work h4 {
+  padding: 1% 20% 1% 0%;
+}
+#testimonials .work img {
+  float: right;
+}
+#testimonials .work1 {
+  padding-bottom: 10%;
+}
+#testimonials .work1 h2 {
+  padding-top: 7rem;
+}
+#testimonials .work1 h4 {
+  padding: 2% 0 2% 0;
+}
+#testimonials .work1 img {
+  float: left;
 }
 
 #Partners {
