@@ -87,33 +87,32 @@ a {
 #testimonials div {
   margin: 3%;
 }
+#testimonials h1,
+#testimonials h2 {
+  text-transform: uppercase;
+}
 #testimonials img {
   width: 50%;
-  border-radius: 2%;
+  border-radius: 1%;
   margin: 1% 1%;
 }
 #testimonials .desc {
-  margin: 5% 0%;
-}
-#testimonials .desc h1,
-#testimonials .desc h2 {
-  text-transform: uppercase;
+  margin: 8% 0%;
 }
 #testimonials .desc h2 {
   font-size: 1.4rem;
 }
 #testimonials .desc h4 {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 #testimonials .desc .btn {
   width: 20%;
 }
 #testimonials .work {
-  margin-top: 7%;
-  padding-bottom: 14%;
+  padding-bottom: 4%;
 }
 #testimonials .work h2 {
-  padding-top: 7rem;
+  padding-top: 4rem;
 }
 #testimonials .work h4 {
   padding: 1% 20% 1% 0%;
@@ -125,7 +124,7 @@ a {
   padding-bottom: 10%;
 }
 #testimonials .work1 h2 {
-  padding-top: 7rem;
+  padding-top: 10rem;
 }
 #testimonials .work1 h4 {
   padding: 2% 0 2% 0;
