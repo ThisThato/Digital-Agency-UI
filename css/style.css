@@ -165,6 +165,51 @@ a {
   color: #d8d8d8;
 }
 
+@media (max-width: 720px) {
+  #testimonials div {
+    margin: 0;
+  }
+  #testimonials h1 {
+    margin: 5% 0;
+  }
+  #testimonials img {
+    width: 70%;
+  }
+  #testimonials .work {
+    padding-bottom: 5%;
+  }
+  #testimonials .work h2 {
+    padding-top: 5%;
+  }
+  #testimonials .work h4 {
+    padding: 1% 15% 1% 15%;
+  }
+  #testimonials .work img {
+    float: none;
+  }
+  #testimonials .work1 img {
+    float: none;
+  }
+  #testimonials .work1 h2 {
+    padding-top: 5%;
+  }
+  #testimonials .work1 h4 {
+    padding: 1% 15% 2% 15%;
+  }
+  #testimonials .desc {
+    margin: 3% 0;
+  }
+  #testimonials .desc h2 {
+    align-items: center;
+    font-size: 1.1rem;
+  }
+  #testimonials .desc h4 {
+    font-size: 0.9rem;
+  }
+  #testimonials .desc .btn {
+    width: 34%;
+  }
+}
 @media (max-width: 1028px) {
   #features {
     padding: 10% 20%;

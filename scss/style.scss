@@ -196,6 +196,65 @@ a {
 }
 
 //Mobile
+
+@media (max-width: 720px) {
+  #testimonials {
+    // text-align: center;
+    div {
+      margin: 0;
+    }
+
+    h1 {
+      margin: 5% 0;
+    }
+
+    img {
+      width: 70%;
+    }
+
+    .work {
+      padding-bottom: 5%;
+      h2 {
+        padding-top: 5%;
+      }
+      h4 {
+        padding: 1% 15% 1% 15%;
+      }
+      img {
+        float: none;
+      }
+      &1 {
+        img {
+          float: none;
+        }
+        h2 {
+          padding-top: 5%;
+        }
+        h4 {
+          padding: 1% 15% 2% 15%;
+        }
+      }
+    }
+
+    .desc {
+      margin: 3% 0;
+
+      h2 {
+        align-items: center;
+        font-size: 1.1rem;
+      }
+
+      h4 {
+        font-size: 0.9rem;
+      }
+
+      .btn {
+        width: 34%;
+      }
+    }
+  }
+}
+
 @media (max-width: 1028px) {
   #features {
     padding: 10% 20%;
