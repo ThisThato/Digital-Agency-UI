@@ -11,7 +11,6 @@ consists of landing pages for the online digital agency.
 
 ## Quick Start 
 
---
 
 ## Install Sass
 
@@ -22,7 +21,7 @@ npm install -g node-sass
 ## Author
 Thato Motaung
 
-##Preview 
+## Preview 
 
  visit: https://thisthato.github.io/Digital-Agency-UI/
 
